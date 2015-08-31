@@ -1,12 +1,12 @@
 name:                yesod-paginator
-version:             0.9.1
+version:             0.10.0
 synopsis:            A pagination approach for yesod
 description:         Paginate a list showing a per-item widget and links to other pages
-homepage:            http://github.com/pbrisbin/yesod-paginator
+homepage:            http://github.com/jamesdabbs/yesod-paginator
 license:             BSD3
 license-file:        LICENSE
 author:              Patrick Brisbin
-maintainer:          pbrisbin@gmail.com
+maintainer:          James Dabbs <jamesdabbs@gmail.com>
 category:            Web, Yesod
 build-type:          Simple
 cabal-version:       >=1.6
@@ -17,8 +17,8 @@ library
 
   build-depends: base       >= 4    && < 5
                , text       >= 0.11 && < 2.0
-               , yesod      >= 1.2  && < 1.3
-               , persistent >= 1.3  && < 1.4
+               , yesod      >= 1.4
+               , persistent >= 2
                , resourcet  >= 0.4.4
                , transformers
 
@@ -26,4 +26,4 @@ library
 
 source-repository head
   type:         git
-  location:     git://github.com/pbrisbin/yesod-paginator.git
+  location:     git://github.com/jamesdabbs/yesod-paginator.git
